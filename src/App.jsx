@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import ButtonLogin from './components/Login/bttn-login';
 import ButtonLogout from './components/logout/button-logout';
 import ButtonAddGame from './components/games/ButtonAddGame';
-import CardGame from './components/games/CardGame';
+import CardGame from './components/games/cardGame';
 import ButtonRegister from './components/Register/ButtonRegister '; // Importa o botão de registro
 import './App.css';
 
