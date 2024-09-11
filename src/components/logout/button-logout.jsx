@@ -1,8 +1,7 @@
-
-
 const ButtonLogout = ({ onLogout }) => {
     const handleLogout = () => {
         onLogout();
+        localStorage.clear();
         window.location.reload();
     };
 
